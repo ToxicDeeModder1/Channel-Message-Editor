@@ -20,7 +20,7 @@ License -> https://github.com/FayasNoushad/Channel-Message-Editor/blob/main/LICE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Channel-Message-Editor">
+  <a href="https://heroku.com/deploy?template=https://github.com/ToxicDeeModder1/Channel-Message-Editor">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -32,7 +32,7 @@ License -> https://github.com/FayasNoushad/Channel-Message-Editor/blob/main/LICE
 <br/>
 
 ```sh
-git clone https://github.com/FayasNoushad/Channel-Message-Editor
+git clone https://github.com/ToxicDeeModder1/Channel-Message-Editor
 cd Channel-Message-Editor
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -54,5 +54,5 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Fayas Noushad](https://github.com/ToxicDeeModder1)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
