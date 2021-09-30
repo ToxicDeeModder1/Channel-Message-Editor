@@ -21,7 +21,7 @@ AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 START_TEXT = """
 Hello {}, I am a channel message editor bot.
 
-Made by @FayasNoushad
+Made by @ToxicDeeModderr
 """
 HELP_TEXT = """
 - I am a channel message editor bot.
@@ -29,21 +29,21 @@ HELP_TEXT = """
 - Use /post command with channel ID with reply a message for posting.
 - Use /edit command with message link with reply a message for editing.
 
-Made by @FayasNoushad
+Made by @ToxicDeeModderr
 """
 ABOUT_TEXT = """
 - **Bot :** `Channel Message Editor Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Channel-Message-Editor/tree/main)
+- **Creator :** [TOXIC DEE MODDER](https://telegram.me/ToxicDeeModderr)
+- **Channel :** [Naruto X Update](https://telegram.me/TheBotsWorldChannel)
+
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/TheBotsWorldChannel'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/ToxicDeeModderr')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
